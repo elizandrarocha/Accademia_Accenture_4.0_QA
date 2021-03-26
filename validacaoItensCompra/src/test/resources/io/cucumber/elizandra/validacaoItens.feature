@@ -11,7 +11,8 @@ Funcionalidade: Verificacao de itens para aquisicao do curso
     Dado que eu estou no site da gama academy "https://www.gama.academy/"
     E clico na opção "DEV FULL STACK"
     Então devo ver os seguintes itens 
-    "Crie seu portfólio!" 
-    "Acompanhamento de Carreira"
-    "Professores de surf que sabem surfar!"
-    "Estude na Melhor Startup de Educação"
+    |Crie seu portfólio!|
+    |Acompanhamento de Carreira|
+    |Professores de surf que sabem surfar!|
+    |Estude na Melhor Startup de Educação|
+

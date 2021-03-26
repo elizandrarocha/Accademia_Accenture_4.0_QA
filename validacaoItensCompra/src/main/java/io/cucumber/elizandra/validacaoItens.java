@@ -1,6 +1,6 @@
-package io.cucumber.danilo;
+package io.cucumber.elizandra;
 
-public class validacaoItensCompra {
+public class validacaoItens {
     public void validar(String cpf) {
 
     }
