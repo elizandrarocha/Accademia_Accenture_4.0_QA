@@ -1,17 +1,27 @@
 package io.cucumber.elizandra;
 
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
 import io.cucumber.java.pt.*;
 
 public class validadorItensSteps {
 
+    public WebDriver browser;
+
     public validadorItensSteps(){
 
+        System.setProperty("webdriver.chrome.driver", "driver/chromedriver");
+        browser = new ChromeDriver();
     }
     
     @Dado("que eu estou no site da gama academy {string}")
     public void que_eu_estou_no_site_da_gama_academy(String string) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        browser.get(string);
+        Actions actions = new Actions(browser);
+        actions.sendKeys(Keys.ESCAPE);
     }
 
     @Dado("clico na opção {string}")
