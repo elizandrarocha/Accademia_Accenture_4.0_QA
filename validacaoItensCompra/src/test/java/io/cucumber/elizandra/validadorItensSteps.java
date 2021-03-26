@@ -1,7 +1,9 @@
 package io.cucumber.elizandra;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
@@ -25,15 +27,19 @@ public class validadorItensSteps {
     }
 
     @Dado("clico na opção {string}")
-    public void clico_na_opção(String string) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+    public void clico_na_opção(String string) throws InterruptedException {
+
+        WebElement input = browser.findElement( By.cssSelector("a[id='lp-pom-button-849']"));
+		input.click();
+        Thread.sleep(3000);
+
     }
 
     @Então("devo ver o valor e o botão comprar agora")
     public void devo_ver_o_valor_e_o_botão_comprar_agora() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        WebElement input = browser.findElement( By.cssSelector(".product-price--single"));
+		//System.out.println(input.getText());
+        //System.out.println("OK");
     }
 
     @Então("devo ver os seguintes itens")
