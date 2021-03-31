@@ -1,20 +1,14 @@
-# Aluna: Elizandra Rocha
-# Instituição: Gama Academy
-
 # Descrição do desafio individual
+
 ### Criar um projeto em selenium webdrive (java) e cucumber usando Page objects com os seguintes cenários:
 
-### Caso de teste 1: Preencher o formulário, aba “Enter Vehicle Data” e pressione next
+- [x] Caso de teste 1: Preencher o formulário, aba “Enter Vehicle Data” e pressione next
+- [x] Caso de teste 2: Preencher o formulário, aba “Enter Insurant Data” e pressione next
+- [x] Caso de teste 3: Preencher o formulário, aba “Enter Product Data” e pressione next
+- [x] Caso de teste 4: Preencher o formulário, aba “Select Price Option” e pressione next
+- [x] Caso de Teste 5: Preencher o formulário, aba “Send Quote” e pressione Send
 
-### Caso de teste 2: Preencher o formulário, aba “Enter Insurant Data” e pressione next
-
-### Caso de teste 3: Preencher o formulário, aba “Enter Product Data” e pressione next
-
-### Caso de teste 4: Preencher o formulário, aba “Select Price Option” e pressione next
-
-### Caso de Teste 5: Preencher o formulário, aba “Send Quote” e pressione Send
-
-### Validação: Verificar a mensagem “Sending e-mail success!” na tela
+<li> Validação: Verificar a mensagem “Sending e-mail success!” na tela </li>
 
 --------------------------------------------------------------------
 
