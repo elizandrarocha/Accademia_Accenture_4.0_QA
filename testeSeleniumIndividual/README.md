@@ -2,11 +2,11 @@
 
 ### Criar um projeto em selenium webdrive (java) e cucumber usando Page objects com os seguintes cenários:
 
-- [x]<b>Caso de teste 1</b>: Preencher o formulário, aba “Enter Vehicle Data” e pressione next
-- [x]<b>Caso de teste 2</b>: Preencher o formulário, aba “Enter Insurant Data” e pressione next
-- [x]<b>Caso de teste 3</b>: Preencher o formulário, aba “Enter Product Data” e pressione next
-- [x]<b>Caso de teste 4</b>: Preencher o formulário, aba “Select Price Option” e pressione next
-- [x]<b>Caso de Teste 5</b>: Preencher o formulário, aba “Send Quote” e pressione Send
+- [x] <b>Caso de teste 1</b>: Preencher o formulário, aba “Enter Vehicle Data” e pressione next
+- [x] <b>Caso de teste 2</b>: Preencher o formulário, aba “Enter Insurant Data” e pressione next
+- [x] <b>Caso de teste 3</b>: Preencher o formulário, aba “Enter Product Data” e pressione next
+- [x] <b>Caso de teste 4</b>: Preencher o formulário, aba “Select Price Option” e pressione next
+- [x] <b>Caso de Teste 5</b>: Preencher o formulário, aba “Send Quote” e pressione Send
 
 <li> Validação: Verificar a mensagem “Sending e-mail success!” na tela </li>
 
