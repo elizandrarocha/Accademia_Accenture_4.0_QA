@@ -12,6 +12,12 @@
 
 --------------------------------------------------------------------
 
+## [Short-Video] - Sample Execution
+
+
+
+--------------------------------------------------------------------
+
 ## Tecnologias utilizadas
 :heavy_check_mark: <b>Java 11</b><br>
 Linguagem de programação para desenvolvimento da aplicação<br>
