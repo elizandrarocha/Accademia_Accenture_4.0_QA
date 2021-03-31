@@ -1,0 +1,73 @@
+
+
+Funcionalidade: Preencher os formulários do site passado
+
+Cenario: Preencha a aba “Enter Vehicle Data” e pressione next
+
+Dado que eu estou no site "http://sampleapp.tricentis.com/101/app.php"
+E seleciono a opcao "string" no campo "Make"
+E seleciono a opcao "string" no campo "Model"
+E digito no campo "Cylinder Capacity [ccm]" : "string"
+E digito no campo "Engine Performance [kW]" : "string" 
+E digito no calendario "Date of Manufacture" a data "MM/DD/YYYY"
+E seleciono a opcao "string" no campo "Number of Seats"
+E escolho a opcao "string" no campo "Right Hand Drive"
+E seleciono a opcao "string" no campo "Number of Seats"
+E seleciono a opcao "string" no campo "Fuel Type"
+E digito no campo "Payload [kg]" : "string"
+E digito no campo "Total Weight [kg]" : "string" 
+E digito no campo "List Price [$]" : "string"
+E digito no campo "License Plate Number" : "string"
+E digito no campo "Annual Mileage [mi]" : "string"
+Então clico no botao "Next >>"
+
+
+
+Cenario: Preencha a aba “Enter Insurant Data” e pressione next
+
+Entao clico no campo "First Name"
+E digito no campo "string"
+E clico no campo "Last Name"
+E digito no campo "string"
+E clico no calendario de "Date of Birth"
+E escolho a data "MM/DD/YYYY"
+E escolho a opcao "Female" em Gender
+E clico no campo "Street Address"
+E digito no campo "string"
+E clico no campo "Country"
+E escolho a opcao "string"
+E clico no campo "Zip Code"
+E digito no campo "string"
+E clico no campo "City'
+E digito no campo "string"
+E clico no campo "Occupation"
+E escolho a opcao "string"
+E escolho a opcao "string" em "Hobbies"
+E clico no campo "Website"
+E digito no campo "string"
+E clico no campo "Picture"
+E clico no botao "Open"
+E escolho uma imagem "nameImage"
+E clico no botao "Abrir"
+Entao clico no botao "Next >>"
+
+
+
+Cenario: Preencha a aba “Enter Product Data” e pressione next
+
+Então clico no calendario de "Start Date"
+E escolho a data "MM/DD/YYYY"
+E clico no campo "Insurance Sum [$]"
+E escolho a opcao "numberFloat"
+E clico no campo "Merit Rating"
+E escolho a opcao "string"
+E clico no campo "Damage Insurance"
+E escolho a opcao "string"
+E escolho a opcao "string" em Optional Products
+E clico no campo "Courtesy Car"
+E escolho a opcao "string"
+Entao clico no botao "Next >>"
+
+
+
+
